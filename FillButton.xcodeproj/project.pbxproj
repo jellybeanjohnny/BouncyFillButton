@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C33A109D523A4A2FC7D92E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA850FEA916E904E36DC93D7 /* libPods.a */; };
+		C975E4E01C3E134400D8DCC0 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975E4DF1C3E134400D8DCC0 /* FillButton.swift */; };
 		C998C39D1C3E113500265F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C998C39C1C3E113500265F16 /* main.m */; };
 		C998C3A01C3E113500265F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C998C39F1C3E113500265F16 /* AppDelegate.m */; };
-		C998C3A31C3E113500265F16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C998C3A21C3E113500265F16 /* ViewController.m */; };
 		C998C3A61C3E113500265F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C998C3A41C3E113500265F16 /* Main.storyboard */; };
 		C998C3A81C3E113600265F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C998C3A71C3E113600265F16 /* Assets.xcassets */; };
 		C998C3AB1C3E113600265F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C998C3A91C3E113600265F16 /* LaunchScreen.storyboard */; };
 		C998C3B61C3E113600265F16 /* FillButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C998C3B51C3E113600265F16 /* FillButtonTests.m */; };
 		C998C3C11C3E113600265F16 /* FillButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C998C3C01C3E113600265F16 /* FillButtonUITests.m */; };
+		C9F6C4D61C42FF6600335B6E /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F6C4D51C42FF6600335B6E /* TestTableViewController.swift */; };
+		C9FF8A611C4303F4003AA85E /* FillButtonTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF8A601C4303F4003AA85E /* FillButtonTestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D66C531F4C27F824EBFD875 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BA850FEA916E904E36DC93D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C975E4DE1C3E134400D8DCC0 /* FillButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FillButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		C975E4DF1C3E134400D8DCC0 /* FillButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		C998C3981C3E113500265F16 /* FillButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C998C39C1C3E113500265F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C998C39E1C3E113500265F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C998C39F1C3E113500265F16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C998C3A11C3E113500265F16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C998C3A21C3E113500265F16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C998C3A51C3E113500265F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C998C3A71C3E113600265F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C998C3AA1C3E113600265F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		C998C3BC1C3E113600265F16 /* FillButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C998C3C01C3E113600265F16 /* FillButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillButtonUITests.m; sourceTree = "<group>"; };
 		C998C3C21C3E113600265F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F6C4D51C42FF6600335B6E /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		C9FF8A601C4303F4003AA85E /* FillButtonTestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillButtonTestCell.swift; sourceTree = "<group>"; };
+		E3164CC35CF64FE1D715ED5E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C33A109D523A4A2FC7D92E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE29BB1B22474E495439F34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3164CC35CF64FE1D715ED5E /* Pods.debug.xcconfig */,
+				8D66C531F4C27F824EBFD875 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64B25858B244719CF22CBC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA850FEA916E904E36DC93D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C998C38F1C3E113500265F16 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				C998C3B41C3E113600265F16 /* FillButtonTests */,
 				C998C3BF1C3E113600265F16 /* FillButtonUITests */,
 				C998C3991C3E113500265F16 /* Products */,
+				3AE29BB1B22474E495439F34 /* Pods */,
+				64B25858B244719CF22CBC94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +129,13 @@
 		C998C39A1C3E113500265F16 /* FillButton */ = {
 			isa = PBXGroup;
 			children = (
-				C998C39E1C3E113500265F16 /* AppDelegate.h */,
-				C998C39F1C3E113500265F16 /* AppDelegate.m */,
-				C998C3A11C3E113500265F16 /* ViewController.h */,
-				C998C3A21C3E113500265F16 /* ViewController.m */,
+				C975E4DF1C3E134400D8DCC0 /* FillButton.swift */,
 				C998C3A41C3E113500265F16 /* Main.storyboard */,
 				C998C3A71C3E113600265F16 /* Assets.xcassets */,
-				C998C3A91C3E113600265F16 /* LaunchScreen.storyboard */,
-				C998C3AC1C3E113600265F16 /* Info.plist */,
 				C998C39B1C3E113500265F16 /* Supporting Files */,
+				C975E4DE1C3E134400D8DCC0 /* FillButton-Bridging-Header.h */,
+				C9F6C4D51C42FF6600335B6E /* TestTableViewController.swift */,
+				C9FF8A601C4303F4003AA85E /* FillButtonTestCell.swift */,
 			);
 			path = FillButton;
 			sourceTree = "<group>";
@@ -117,6 +143,10 @@
 		C998C39B1C3E113500265F16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C998C39E1C3E113500265F16 /* AppDelegate.h */,
+				C998C39F1C3E113500265F16 /* AppDelegate.m */,
+				C998C3A91C3E113600265F16 /* LaunchScreen.storyboard */,
+				C998C3AC1C3E113600265F16 /* Info.plist */,
 				C998C39C1C3E113500265F16 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C998C3C51C3E113600265F16 /* Build configuration list for PBXNativeTarget "FillButton" */;
 			buildPhases = (
+				5B83B7FB284DCC9E423DF04F /* Check Pods Manifest.lock */,
 				C998C3941C3E113500265F16 /* Sources */,
 				C998C3951C3E113500265F16 /* Frameworks */,
 				C998C3961C3E113500265F16 /* Resources */,
+				476000B9978C3C529FCDBD00 /* Embed Pods Frameworks */,
+				CA3DD53200056906101209D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +298,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		476000B9978C3C529FCDBD00 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B83B7FB284DCC9E423DF04F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3DD53200056906101209D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C998C3941C3E113500265F16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C998C3A31C3E113500265F16 /* ViewController.m in Sources */,
+				C9FF8A611C4303F4003AA85E /* FillButtonTestCell.swift in Sources */,
 				C998C3A01C3E113500265F16 /* AppDelegate.m in Sources */,
+				C975E4E01C3E134400D8DCC0 /* FillButton.swift in Sources */,
 				C998C39D1C3E113500265F16 /* main.m in Sources */,
+				C9F6C4D61C42FF6600335B6E /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +494,30 @@
 		};
 		C998C3C61C3E113600265F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3164CC35CF64FE1D715ED5E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FillButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wubbyland.FillButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FillButton/FillButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C998C3C71C3E113600265F16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D66C531F4C27F824EBFD875 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FillButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wubbyland.FillButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FillButton/FillButton-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -498,6 +588,7 @@
 				C998C3C71C3E113600265F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C998C3C81C3E113600265F16 /* Build configuration list for PBXNativeTarget "FillButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +597,7 @@
 				C998C3CA1C3E113600265F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C998C3CB1C3E113600265F16 /* Build configuration list for PBXNativeTarget "FillButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +606,7 @@
 				C998C3CD1C3E113600265F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
